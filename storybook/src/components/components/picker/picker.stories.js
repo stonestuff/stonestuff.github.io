@@ -13,5 +13,5 @@ const Template = (args) => (
 
 export const PickerExample = Template.bind({});
 PickerExample.args = {
-  title: 'AvatarExample',
+  title: 'Picker'
 };

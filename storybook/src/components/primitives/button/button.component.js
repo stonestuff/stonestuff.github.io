@@ -1,12 +1,9 @@
 import React from 'react';
 import './button.css';
+import {Button as MuiButton} from '@material-ui/core';
 
-export const Button = ({ title }) => {
-  console.log('--+');
+export const Button = ({title, onClick}) => {
   return (
-    <div className='button-root'>
-      <div>{title}</div>
-      <div>Button</div>
-    </div>
+    <MuiButton className='button-root' variant="contained" color="primary" onClick={onClick}>{title}</MuiButton>
   );
 };

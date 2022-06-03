@@ -14,5 +14,6 @@ const Template = (args) => (
 export const ButtonExample = Template.bind({});
 
 ButtonExample.args = {
-  title: 'ButtonExample'
+  title: 'Button Example',
+  onClick: console.log
 };

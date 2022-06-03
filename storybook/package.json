@@ -2,8 +2,10 @@
   "name": "",
   "version": "",
   "dependencies": {
-    "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-scripts": "4.0.3",
+    "@material-ui/core": "^4.12.4"
   },
   "scripts": {
     "l": "start-storybook -p 8080 -s public",
@@ -11,6 +13,6 @@
   },
   "devDependencies": {
     "@storybook/preset-create-react-app": "3.2.0",
-    "react-scripts": "4.0.3"
+    "storybook-addon-turbo-build": "^1.1.0"
   }
 }
