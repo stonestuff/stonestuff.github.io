@@ -1,0 +1,8 @@
+# node modules
+/node_modules
+
+# build
+/storybook-static
+
+# mac
+.DS_Store
