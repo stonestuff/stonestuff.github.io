@@ -12,7 +12,6 @@
     "b": "build-storybook -s public"
   },
   "devDependencies": {
-    "@storybook/preset-create-react-app": "3.2.0",
-    "storybook-addon-turbo-build": "^1.1.0"
+    "@storybook/preset-create-react-app": "3.2.0"
   }
 }
